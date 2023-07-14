@@ -13,19 +13,21 @@
 
   <form>
     <input
+      id = todoInput
       placeholder="To-Do Text"
       type="text"
     >
     <input
+      id = authorInput
       placeholder="Author"
       type="text"
     >
-    <button>Submit</button>
+    <button id="submitButton">Submit</button>
   </form>
 
   <h3>Your To-Do List:</h3>
-  <p>You currently have <span>2</span> to-dos:</p>
-  <ul >
+  <p>You currently have <span id="todoCount">2</span> to-dos:</p>
+  <ul id="todoList">
     <!-- This is where the to-dos will be rendered -->
     <li>
       <button>❌</button>
