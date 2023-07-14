@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,20 +9,13 @@
   <script src="script.js"></script>
   <title>jQuery App</title>
 </head>
+
 <body>
   <h1>jQuery App</h1>
 
   <form>
-    <input
-      id = todoInput
-      placeholder="To-Do Text"
-      type="text"
-    >
-    <input
-      id = authorInput
-      placeholder="Author"
-      type="text"
-    >
+    <input id=todoInput placeholder="To-Do Text" type="text">
+    <input id=authorInput placeholder="Author" type="text">
     <button id="submitButton">Submit</button>
   </form>
 
@@ -30,13 +24,14 @@
   <ul id="todoList">
     <!-- This is where the to-dos will be rendered -->
     <li>
-      <button>❌</button>
+      <button class="deleteButton">❌</button>
       make a hit indie game (kris)
     </li>
     <li>
-      <button>❌</button>
+      <button class="deleteButton">❌</button>
       become CEO of Prime Digital Academy (emma)
     </li>
   </ul>
 </body>
+
 </html>
